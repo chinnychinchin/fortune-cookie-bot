@@ -58,7 +58,7 @@ const PORT = process.env.PORT
 
 bot.launch({
     webhook: {
-      domain: 'https://thefakerealbot.herokuapp.com/',
+      domain: 'https://gimme-cookie-bot.herokuapp.com/',
       port: PORT
     }
   })
