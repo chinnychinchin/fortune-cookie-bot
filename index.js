@@ -1,3 +1,4 @@
+require('dotenv').config()
 const {Telegraf, Markup} = require('telegraf');
 const {xNumOfCookies} = require('./fortune-cookie');
 const {MenuTemplate, MenuMiddleware} = require('telegraf-inline-menu')
